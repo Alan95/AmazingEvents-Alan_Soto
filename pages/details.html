@@ -14,7 +14,7 @@
 
 <body class="d-flex flex-column min-vh-100">
   <header>
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo" src="../assets/amazing_brand.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -44,11 +44,28 @@
     </nav>
   </header>
 
-  <main class="flex-grow-1"></main>
+  <main class="flex-grow-1">
+
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
 
   <footer>
-    <div class="container-fluid d-flex justify-content-between">
-      <div class="d-flex gap-3">
+    <div class="container-fluid d-flex justify-content-between logo-SNS">
+      <div class="d-flex gap-3 align-items-center">
         <a href="https://www.facebook.com" target="_blank">
           <img src="../assets/facebook.png" alt="logo facebook">
         </a>
@@ -59,7 +76,7 @@
           <img src="../assets/whatsapp.png" alt="logo whatsapp">
         </a>
       </div>
-      <span>COHORT</span>
+      <span class="span">COHORT</span>
     </div>
   </footer>
 

@@ -6,13 +6,22 @@
 footer {
     background-color: black;
 }
-span {
+.span {
     color: white;
     font-size: xx-large;
 }
 header {
-    background-color: black;
+    background-color: gray;
 }
-.logo-SNS {
+.logo-SNS img {
     width: 30px;
+}
+.banner {
+    height: 20vh;
+}
+.carousel img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 20vh;
 }

@@ -43,20 +43,33 @@
       </div>
     </nav>
 
-    <div class="carousel slide">
+    <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
-        <div class="carousel-item active text-center">
-          <span>Home</span>
+        <div class="carousel-item active">
+          <img src="./assets/optional_banner_1.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/optional_banner_2.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/optional_banner_3.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/optional_banner_4.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/optional_banner_5.jpg" class="d-block w-100" alt="carousel image">
         </div>
       </div>
-      <a href="./pages/stats.html" target="_self" class="carousel-control-prev" type="button"
-        data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a href="./pages/upcoming_events.html" target="_self" class="carousel-control-next" type="button"
-        data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <span class="span position-absolute top-50 start-50 translate-middle">HOME</span>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </header>
 
@@ -71,7 +84,7 @@
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
           <label class="form-check-label" for="flexCheckChecked">
             Category
           </label>
@@ -95,7 +108,7 @@
           </label>
         </div>
       </div>
-      
+
       <nav class="navbar">
         <div class="container-fluid">
           <form class="d-flex justify-content-end" role="search">
@@ -112,78 +125,87 @@
 
     <div class="container-fluid d-flex flex-wrap justify-content-center gap-3">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/food_fair.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Festival of the collectivities</h5>
+          <p class="card-text">Enjoy your favorite dishes from different countries in a unique event for the whole
+            family.</p>
+          <span>Price: 5</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/outing_to_the_museum.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Art Exhibition</h5>
+          <p class="card-text">Let's go to the art museum for an incredible tour to learn about the largest dinosaurs.
+          </p>
+          <span>Price: 15</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/costume_party.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Halloween Night</h5>
+          <p class="card-text">Come in your scariest costume character to win amazing prizes.</p>
+          <span>Price: 12</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/music_concert.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Metallica in concert</h5>
+          <p class="card-text">The only concert of the most emblematic band in the world</p>
+          <span>Price: 150</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/marathon.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">10K for life</h5>
+          <p class="card-text">Come and exercise, improve your health and lifestyle.</p>
+          <span>Price: 3</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/books.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">School Book Fair</h5>
+          <p class="card-text">Bring your unused school book and bring the one you need.</p>
+          <span>Price: 1</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="./assets/cinema.jpg" class="card-img-top" alt="card image">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Avengers</h5>
+          <p class="card-text">Marvel's Avengers 3d premiere the start of an epic saga with your best superheroes</p>
+          <span>Price: 250</span>
+          <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
     </div>
   </main>
 
   <footer>
-    <div class="container-fluid d-flex justify-content-between">
+    <div class="container-fluid d-flex justify-content-between logo-SNS">
       <div class="d-flex gap-3 align-items-center">
-        <a class="a" href="https://www.facebook.com" target="_blank">
-          <img class="logo-SNS" src="./assets/facebook.png" alt="logo facebook">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="./assets/facebook.png" alt="logo facebook">
         </a>
-        <a class="a" href="https://www.instagram.com" target="_blank">
-          <img class="logo-SNS" src="./assets/instagram.png" alt="logo instagram">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="./assets/instagram.png" alt="logo instagram">
         </a>
-        <a class="a" href="https://www.whatsapp.com" target="_blank">
-          <img class="logo-SNS" src="./assets/whatsapp.png" alt="logo whatsapp">
+        <a href="https://www.whatsapp.com" target="_blank">
+          <img src="./assets/whatsapp.png" alt="logo whatsapp">
         </a>
       </div>
-      <span>COHORT</span>
+      <span class="span">COHORT</span>
     </div>
   </footer>
 

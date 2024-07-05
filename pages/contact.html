@@ -14,7 +14,7 @@
 
 <body class="d-flex flex-column min-vh-100">
   <header>
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo" src="../assets/amazing_brand.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,28 +43,60 @@
       </div>
     </nav>
 
-    <div class="carousel slide">
+    <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
-        <div class="carousel-item active text-center">
-          <span>Contact</span>
+        <div class="carousel-item active">
+          <img src="../assets/optional_banner_1.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/optional_banner_2.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/optional_banner_3.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/optional_banner_4.jpg" class="d-block w-100" alt="carousel image">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/optional_banner_5.jpg" class="d-block w-100" alt="carousel image">
         </div>
       </div>
-      <a href="./past_events.html" target="_self" class="carousel-control-prev" type="button"
-        data-bs-target="#carouselExample" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a href="./stats.html" target="_self" class="carousel-control-next" type="button"
-        data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <span class="span position-absolute top-50 start-50 translate-middle">CONTACT US</span>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </header>
 
-  <main class="flex-grow-1"></main>
+  <main class="flex-grow-1">
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </main>
 
   <footer>
-    <div class="container-fluid d-flex justify-content-between">
-      <div class="d-flex gap-3">
+    <div class="container-fluid d-flex justify-content-between logo-SNS">
+      <div class="d-flex gap-3 align-items-center">
         <a href="https://www.facebook.com" target="_blank">
           <img src="../assets/facebook.png" alt="logo facebook">
         </a>
@@ -75,7 +107,7 @@
           <img src="../assets/whatsapp.png" alt="logo whatsapp">
         </a>
       </div>
-      <span>COHORT</span>
+      <span class="span">COHORT</span>
     </div>
   </footer>
 
