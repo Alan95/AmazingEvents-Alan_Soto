@@ -2,20 +2,22 @@
     width: 150px;
 }
 
-main {
+.main-color {
     background-color: #DEB841;
 }
 
-footer {
+.footer-color {
     background-color: #6D6A75;
 }
 
-.span {
+.yellow {
     color: #DE9E36;
-    font-size: xx-large;
+}
+.font-xxLarge {
+  font-size: xx-large;
 }
 
-header {
+.header-color {
     background-color: #37323E;
 }
 
@@ -34,11 +36,10 @@ header {
     height: 20vh;
 }
 
-.carousel .span {
+.carousel span {
     font-family: "Ga Maamli", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
     background-color: rgb(240, 255, 255, 0.4);
     border-radius: 30%;
     text-shadow: -2px 2px 0 #000,
@@ -68,8 +69,20 @@ div .text-horizontal {
   justify-content: center;
   align-items: center;
 }
-form {
+.form {
   width: 350px;
+}
+.table th {
+  background-color: gray;
+  text-align: center;
+}
+.table, td, th {
+  border: 2px solid black;
+  height: 3rem;
+}
+.table {
+  margin: 10px;
+  width: 90%;
 }
 
 .button-53 {

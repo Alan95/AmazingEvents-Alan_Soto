@@ -13,7 +13,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-  <header>
+  <header class="header-color">
     <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo" src="../assets/amazing_brand.png" alt="logo"></a>
@@ -65,7 +65,7 @@
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <span class="span position-absolute top-50 start-50 translate-middle">CONTACT US</span>
+      <span class="span position-absolute top-50 start-50 translate-middle yellow fs-1">CONTACT US</span>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
@@ -73,21 +73,21 @@
     </div>
   </header>
 
-  <main class="flex-grow-1 main-center">
+  <main class="flex-grow-1 main-color main-center">
 
-    <form>
+    <form class="form">
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control" id="name">
       </div>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="email" class="form-control" id="exampleInputEmail1">
       </div>
       <div class="mb-3">
         <label class="form-check-label" for="message">Message</label>
         <div class="form-floating">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+          <textarea class="form-control" placeholder="Leave a comment here" id="message"
             style="height: 100px"></textarea>
         </div>
       </div>
@@ -96,7 +96,7 @@
 
   </main>
 
-  <footer>
+  <footer class="footer-color">
     <div class="container-fluid d-flex justify-content-between logo-SNS">
       <div class="d-flex gap-3 align-items-center">
         <a href="https://www.facebook.com" target="_blank">
@@ -109,7 +109,7 @@
           <img src="../assets/whatsapp.png" alt="logo whatsapp">
         </a>
       </div>
-      <span class="span"><span class="text-red">C</span>OHORT</span>
+      <span class="fs-2 yellow"><span class="text-red">C</span>OHORT</span>
     </div>
   </footer>
 
